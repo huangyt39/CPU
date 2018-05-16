@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="test" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="380000000fs"></ZoomStartTime>
+      <ZoomEndTime time="764000001fs"></ZoomEndTime>
+      <Cursor1Time time="700000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="138"></NameColumnWidth>
+      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/test/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/Reset" type="logic">
+      <obj_property name="ElementShortName">Reset</obj_property>
+      <obj_property name="ObjectShortName">Reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/currentInstruction" type="array">
+      <obj_property name="ElementShortName">currentInstruction[31:0]</obj_property>
+      <obj_property name="ObjectShortName">currentInstruction[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/nextInstructionAddr" type="array">
+      <obj_property name="ElementShortName">nextInstructionAddr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">nextInstructionAddr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/opcode" type="array">
+      <obj_property name="ElementShortName">opcode[5:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/pcSrc" type="logic">
+      <obj_property name="ElementShortName">pcSrc</obj_property>
+      <obj_property name="ObjectShortName">pcSrc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/writeData" type="array">
+      <obj_property name="ElementShortName">writeData[31:0]</obj_property>
+      <obj_property name="ObjectShortName">writeData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/readData1" type="array">
+      <obj_property name="ElementShortName">readData1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/readData2" type="array">
+      <obj_property name="ElementShortName">readData2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">readData2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/Immediate_32" type="array">
+      <obj_property name="ElementShortName">Immediate_32[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Immediate_32[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/aluOp" type="array">
+      <obj_property name="ElementShortName">aluOp[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluOp[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/aluResult" type="array">
+      <obj_property name="ElementShortName">aluResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">aluResult[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/Zero" type="logic">
+      <obj_property name="ElementShortName">Zero</obj_property>
+      <obj_property name="ObjectShortName">Zero</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/dataOut" type="array">
+      <obj_property name="ElementShortName">dataOut[31:0]</obj_property>
+      <obj_property name="ObjectShortName">dataOut[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/dataMemRW" type="logic">
+      <obj_property name="ElementShortName">dataMemRW</obj_property>
+      <obj_property name="ObjectShortName">dataMemRW</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/nRD" type="logic">
+      <obj_property name="ElementShortName">nRD</obj_property>
+      <obj_property name="ObjectShortName">nRD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/nWR" type="logic">
+      <obj_property name="ElementShortName">nWR</obj_property>
+      <obj_property name="ObjectShortName">nWR</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test/uut/RegisterFile/register" type="array">
+      <obj_property name="ElementShortName">register[0:31][31:0]</obj_property>
+      <obj_property name="ObjectShortName">register[0:31][31:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+</wave_config>
