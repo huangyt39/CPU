@@ -32,8 +32,8 @@ module RegisterFile(RegWre, CLK, rs, rt, rd, in_data, ReadData1, ReadData2);
     end
     assign ReadData1 = register[rs];
     assign ReadData2 = register[rt];
-    always @(posedge CLK) begin
-        if((rd != 0) && (RegWre == 1)) begin
+    always @(negedge CLK) begin
+        if((rd != 5'b00000) && (RegWre == 1)) begin
             register[rd] = in_data;
         end
     end

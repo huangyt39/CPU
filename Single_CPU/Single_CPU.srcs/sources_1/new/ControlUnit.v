@@ -182,7 +182,7 @@ module ControlUnit(opcode, zero, PCWre, ALUSrcA, ALUSrcB, DBDataSrc, RegWre, Ins
                 nRD = 0;
                 nWR = 1;
                 RegDst = 0;
-                ExtSel = 0; 
+                ExtSel = 1; 
                 PCSrc = 00;
                 ALUOp = 000;
             end
@@ -197,7 +197,7 @@ module ControlUnit(opcode, zero, PCWre, ALUSrcA, ALUSrcB, DBDataSrc, RegWre, Ins
                 nRD = 1;
                 nWR = 0;
                 RegDst = 0;
-                ExtSel = 0; 
+                ExtSel = 1; 
                 PCSrc = 00;
                 ALUOp = 000;
             end

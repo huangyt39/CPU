@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module DataMemory(nRD, nWR, CLK, Datain, DAddr, DataOut);
+module DataMemory(nRD, nWR, CLK, DAddr, Datain, DataOut);
     input nRD;
     input nWR;
     input CLK;

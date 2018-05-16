@@ -52,8 +52,6 @@ module main_CPU(CLK, Reset, currentInstruction, nextInstructionAddr, opcode, pcS
         assign aluResult = ALUResult;
         assign Zero = zero;
         assign dataOut = DataOut;
-        assign nrd = nRD;
-        assign nwr = nWR;
               
         PC pc(PCWre, CLK, Reset, in_pc, out_pc);
         PCAddFour pcAddFour(out_pc, out_pc_AddFour);

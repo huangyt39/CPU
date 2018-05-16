@@ -36,7 +36,8 @@ module test();
     wire [31:0] aluResult;
     wire Zero;
     wire [31:0] dataOut;
-    wire dataMemRW;
+    wire nRD;
+    wire nWR;
     main_CPU uut(
         .CLK(CLK),
         .Reset(Reset),
@@ -51,9 +52,7 @@ module test();
         .aluOp(aluOp),
         .aluResult(aluResult),
         .Zero(Zero),
-        .dataOut(dataOut),
-        .nRD(nRD),
-        .nWR(nWR)
+        .dataOut(dataOut)
     );
     initial begin
         CLK = 0;

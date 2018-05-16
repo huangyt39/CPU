@@ -5,18 +5,14 @@ Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
-Unable to capture context for thread 9096 in process 8420, can not generate back trace
-Unable to capture context for thread 14516 in process 8420, can not generate back trace
-Unable to capture context for thread 7328 in process 8420, can not generate back trace
+Unable to capture context for thread 13524 in process 5040, can not generate back trace
+Unable to capture context for thread 6252 in process 5040, can not generate back trace
+Unable to capture context for thread 4476 in process 5040, can not generate back trace
+Unable to capture context for thread 11312 in process 5040, can not generate back trace
+Unable to capture context for thread 8532 in process 5040, can not generate back trace
 Exception at PC 0x00007FFCE7564008
-Unable to capture context for thread 12204 in process 8420, can not generate back trace
-Unable to capture context for thread 14284 in process 8420, can not generate back trace
-Unable to capture context for thread 13476 in process 8420, can not generate back trace
-Exception at PC 0x00007FFCE7564008
-Unable to capture context for thread 12204 in process 8420, can not generate back trace
-Unable to capture context for thread 14284 in process 8420, can not generate back trace
-Unable to capture context for thread 13476 in process 8420, can not generate back trace
-Exception at PC 0x00007FFC7B3CBB93
+Unable to capture context for thread 11312 in process 5040, can not generate back trace
+Exception at PC 0x00007FFCB20ABB93
 Printing stacktrace...
 
 Exception at PC 0x00007FFCE7564008
@@ -32,25 +28,26 @@ Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
-Exception at PC 0x00007FFCE7564008
-Exception at PC 0x00007FFCE7564008
-Exception at PC 0x00007FFCE7564008
-Exception at PC 0x00007FFCE7564008
-[0]  [0x00007FFC7B3CBB93]
-[1]  [0x00007FFC7B3CBB93]
-[2]  [0x00007FFC7B3CB4A1]
-[3]  [0x00007FFC7B3CB3EF]
-[4]  [0x00007FFC7B3B19FE]
-[5]  [0x00007FFC7B3B0ED1]
-[6]  [0x00007FFC7B3B0D76]
-[7]  [0x00007FFC7B3579F6]
-[8]  [0x00007FFC7B347AFB]
-[9]  [0x00007FFC7B46E90A]
-[10]  [0x00007FFC7B489F87]
-[11]  [0x00007FFC7B48A05F]
+[0]  [0x00007FFCB20ABB93]
+[1]  [0x00007FFCB20ABB93]
+[2]  [0x00007FFCB20AB4A1]
+[3]  [0x00007FFCB20AB3EF]
+[4]  [0x00007FFCB20919FE]
+[5]  [0x00007FFCB2090ED1]
+[6]  [0x00007FFCB2090D76]
+[7]  [0x00007FFCB20379F6]
+[8]  [0x00007FFCB2027AFB]
+[9]  [0x00007FFCB214E90A]
+[10]  [0x00007FFCB2169F87]
+[11]  [0x00007FFCB216A05F]
 [12] (BaseThreadInitThunk+0x14) [0x00007FFCE9C31FE4]
 [13] (RtlUserThreadStart+0x21) [0x00007FFCEA3FEFC1]
 Done
+Exception at PC 0x00007FFCE7564008
+Exception at PC 0x00007FFCE7564008
+Exception at PC 0x00007FFCE7564008
+Exception at PC 0x00007FFCE7564008
+Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
 Exception at PC 0x00007FFCE7564008
