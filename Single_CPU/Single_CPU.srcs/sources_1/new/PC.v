@@ -26,7 +26,7 @@ module PC(PCWre, CLK, Reset, in, out);
     output reg [31:0] out;
 
     always @(posedge CLK) begin
-        if(Reset) begin
+        if(!Reset) begin
             out = 0;
         end else if(PCWre) begin
             out = in;

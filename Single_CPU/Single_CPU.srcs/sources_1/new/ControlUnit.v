@@ -254,12 +254,12 @@ module ControlUnit(opcode, zero, PCWre, ALUSrcA, ALUSrcB, DBDataSrc, RegWre, Ins
             end
             6'b111111:              //halt
             begin
-                PCWre = 01;
+                PCWre = 00;
                 ALUSrcA = 0;
                 ALUSrcB = 0;
                 DBDataSrc = 0;
                 RegWre = 0;
-                InsMenRW = 1;
+                InsMenRW = 0;
                 nRD = 0;
                 nWR = 0;
                 RegDst = 0;

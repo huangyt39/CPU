@@ -56,11 +56,11 @@ module test();
     );
     initial begin
         CLK = 0;
-        Reset = 1;
+        Reset = 0;
         #50;
             CLK = ~CLK;
         #50;// 初始设置pc为0
-            Reset = 0;
+            Reset = 1;
         forever #50 begin // 周期为100ns
             CLK = ~CLK;
         end

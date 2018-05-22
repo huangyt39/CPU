@@ -33,13 +33,13 @@ module DataMemory(nRD, nWR, CLK, DAddr, Datain, DataOut);
         DataOut = 0;
     end
     always @(negedge CLK) begin
-        if(nWR) begin
+        if(nWR && !nRD) begin
             datamemory[DAddr + 3] = Datain[31:24];
             datamemory[DAddr + 2] = Datain[23:16];
             datamemory[DAddr + 1] = Datain[15:8];
             datamemory[DAddr] = Datain[7:0];
         end
-        if(nRD) begin
+        if(nRD && !nWR) begin
             DataOut[31:24] = datamemory[DAddr + 3];
             DataOut[23:16] = datamemory[DAddr + 2];
             DataOut[15:8] = datamemory[DAddr + 1];

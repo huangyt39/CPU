@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="380000000fs"></ZoomStartTime>
-      <ZoomEndTime time="764000001fs"></ZoomEndTime>
-      <Cursor1Time time="700000000fs"></Cursor1Time>
+      <ZoomStartTime time="1873333333fs"></ZoomStartTime>
+      <ZoomEndTime time="2471833334fs"></ZoomEndTime>
+      <Cursor1Time time="2350000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="138"></NameColumnWidth>
-      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="18" />
+   <WVObjectSize size="17" />
    <wvobject fp_name="/test/CLK" type="logic">
       <obj_property name="ElementShortName">CLK</obj_property>
       <obj_property name="ObjectShortName">CLK</obj_property>
@@ -39,6 +39,7 @@
    <wvobject fp_name="/test/opcode" type="array">
       <obj_property name="ElementShortName">opcode[5:0]</obj_property>
       <obj_property name="ObjectShortName">opcode[5:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
    </wvobject>
    <wvobject fp_name="/test/pcSrc" type="logic">
       <obj_property name="ElementShortName">pcSrc</obj_property>
@@ -75,10 +76,6 @@
    <wvobject fp_name="/test/dataOut" type="array">
       <obj_property name="ElementShortName">dataOut[31:0]</obj_property>
       <obj_property name="ObjectShortName">dataOut[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/test/dataMemRW" type="logic">
-      <obj_property name="ElementShortName">dataMemRW</obj_property>
-      <obj_property name="ObjectShortName">dataMemRW</obj_property>
    </wvobject>
    <wvobject fp_name="/test/nRD" type="logic">
       <obj_property name="ElementShortName">nRD</obj_property>

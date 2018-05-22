@@ -23,6 +23,10 @@
 module ImmediateExtend(PC4, ins, addr);
     input [31:0] PC4;
     input [31:0] ins;
-    output [31:0] addr;
-    assign addr = {PC4[31:28],ins[27:2],0,0};
+    output reg [31:0] addr;
+    always @(PC4 or ins) begin
+        addr[31:28] = PC4[31:28];
+        addr[27:2] = ins[25:0];
+        addr[1:0] = 00;
+    end
 endmodule
