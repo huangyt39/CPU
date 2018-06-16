@@ -185,7 +185,8 @@ module controlUnit(
             slt: ALUOp = 3'b011;
             sltiu: ALUOp = 3'b010;  
             sll: ALUOp = 3'b100;  
-            beq: ALUOp = 3'b001;  
+            beq: ALUOp = 3'b001; 
+            bltz: ALUOp = 3'b011;
             default: ALUOp = 3'b000;  
         endcase  
           

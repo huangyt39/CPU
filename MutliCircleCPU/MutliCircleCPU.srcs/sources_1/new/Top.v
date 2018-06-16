@@ -47,11 +47,11 @@ module Top(
      PCAddr pcaddr(ins[25:0], pc0, j_addr);    
      RegFile regfile(ins[25:21], ins[20:16], ins[15:11], CLK, RegWre, WrRegDSrc, RegDst, (pc0+4), LateOut2, lastpc0, ReadData1, ReadData2);  
      DataLate ADR(selectedA, CLK, out1);  
-     DataLate BDR(selectedB, CLK, out2);       
+     DataLate BDR(ReadData2, CLK, out2);       
      Extend extend(ins[15:0], ExtSel, extendData);        
-     ALU alu(out1, out2, ALUOp, zero, sign, result);
+     ALU alu(out1, selectedB, ALUOp, zero, sign, result);
      ALUSrcAsel ALUSrcAsel(ReadData1, ins[10:6], ALUSrcA, selectedA);
-     DataSelect_2 ALUSrcBsel(ReadData2, extendData, ALUSrcB, selectedB);   
+     DataSelect_2 ALUSrcBsel(out2, extendData, ALUSrcB, selectedB);   
      DataLate ALUoutDR(result, CLK, result1);        
      DataMemory datamemory(result1, out2, nRD, nWR, DataOut);    
      DataSelect_2 dataselect_2(result, DataOut, DBDataSrc, LateOut1);  
